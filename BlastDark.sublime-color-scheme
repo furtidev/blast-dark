@@ -1,0 +1,194 @@
+/* 
+This theme is only a port of the original VS Code theme made by HitBlast.
+Thanks for giving me permission to port this amazing theme to Sublime <3
+*/
+{
+	"name":"Blast Dark",
+	// global settings.
+	"globals" :
+	{
+		"background":"#18191d", 
+		"foreground":"#e0e6fc", 
+		"caret":"white", 
+		"misspelling":"#fd6c84",
+		"accent":"#18191d",
+		"gutter":"#10141c",
+		"gutter_foreground":"#e0e6fc35", 
+		"gutter_foreground_highlight":"#111", 
+		"line_diff_width":"2",
+		"selection":"#e0e6fc15", 
+		"selection_border":"#e0e6fc65", 
+		"highlight":"#e0e6fc",
+		"find_highlight":"#e0e6fc35",
+		"guide": "#6c73804d",
+		"active_guide": "#6c738080",
+		"stack_guide": "#6c738066",
+		"shadow": "#10141c4d",
+		"shadow_width": "3"
+	},
+	"rules": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"font_style": "italic",
+			"foreground": "#404c52"
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"foreground": "#e4ffff"
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"foreground": "#ffb491"
+		},
+		{
+			"name": "Function arguments",
+			"scope": "variable.parameter, meta.parameter",
+			"foreground": "#ffb491"
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"foreground": "#ffb491"
+		},
+		{
+			"name": "Built-in constants",
+			"scope": "constant.language",
+			"foreground": "#ffb491"
+		},
+		{
+			"name": "String",
+			"scope": "string - meta.template, constant.other.symbol, string.quoted",
+			"foreground": "#ddf5b9"
+		},
+		{
+			"name": "Inherited class type",
+			"scope": "entity.other.inherited-class",
+			"foreground": "#ddf5b9"
+		},
+		{
+			"name": "Markup heading",
+			"scope": "markup.heading, markup.heading entity.name",
+			"font_style": "bold",
+			"foreground": "#ddf5b9"
+		},
+		{
+			"name": "Library class/type",
+			"scope": "support.type, support.class, source.go storage.type",
+			"foreground": "#ffda97"
+		},
+		{
+			"name": "CSS Properties",
+			"scope": "support.type.property-name",
+			"font_style": "normal",
+			"foreground": "#B2CCD6"
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"foreground": "#ffd689",
+			"font_style":"italic"
+		},
+		{
+			"name": "CSS tag names",
+			"scope": "source.css entity.name.tag, source.sass entity.name.tag, source.scss entity.name.tag, source.less entity.name.tag, source.stylus entity.name.tag",
+			"foreground": "#59c2ff"
+		},
+		{
+			"name": "Markup added",
+			"scope": "markup.inserted",
+			"foreground": "#ddf5b9"
+		},
+		{
+			"name": "Markup removed",
+			"scope": "markup.deleted",
+			"foreground": "#e75e75"
+		},
+		{
+			"name": "Markup modified",
+			"scope": "markup.changed",
+			"foreground": "#C792EA"
+		},
+		{
+			"name": "Regular Expressions and Escape Characters",
+			"scope": "string.regexp, constant.character, constant.other",
+			"foreground": "#89DDFF"
+		},
+		{
+			"name": "Markup heading",
+			"scope": "markup.heading, markup.heading entity.name",
+			"font_style": "bold",
+			"foreground": "#ddf5b9"
+		},
+		{
+			"name": "Markup Italic",
+			"scope": "markup.italic",
+			"font_style": "italic",
+			"foreground": "#ffb0b4"
+		},
+		{
+			"name": "Markup links",
+			"scope": "markup.underline.link, string.other.link",
+			"foreground": "#94b4fa"
+		},
+		{
+			"name": "Markup Bold/italic",
+			"scope": "markup.italic markup.bold, markup.bold markup.italic",
+			"font_style": "bold italic",
+			"foreground": "#ffb0b4"
+		},
+		{
+			"name": "Markup Bold",
+			"scope": "markup.bold",
+			"font_style": "bold",
+			"foreground": "#ffb0b4"
+		},
+		{
+			"name": "Markup Raw Inline",
+			"scope": "text.html.markdown markup.inline.raw",
+			"foreground": "#C792EA"
+		},
+		{
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"foreground": "#afc7fc"
+		},
+		{
+			"name": "Function call",
+			"scope": "variable.function, variable.annotation, meta.function-call.generic, support.function.go",
+			"foreground": "#afc7fc"
+		},
+		{
+			"name": "Library function",
+			"scope": "support.function, support.macro",
+			"foreground": "#afc7fc"
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"foreground": "#fd6c84"
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"foreground": "#e2b8fd"
+		},
+		{
+			"name": "Operators",
+			"scope": "keyword.operator",
+			"foreground": "#d0f2ff"
+		},
+		{
+			"name": "Tag",
+			"scope": "entity.name.tag, meta.tag.sgml",
+			"foreground": "#f58288"
+		},
+		{
+			"name": "Imports and packages",
+			"scope": "entity.name.import, entity.name.package",
+			"foreground": "#e75e75"
+		},
+	]
+}
