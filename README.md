@@ -6,6 +6,8 @@ Blast Dark is an eye-candy theme especially made with long coding hours in mind.
 ## Installation
 Blast Dark can run on any Sublime 3 versions. But, if you don't want any issues, consider using the latest version for Sublime Text.
 
+[Check it out on Package Control](https://packagecontrol.io/packages/Blast%20Dark)
+
 There are a few ways you can install this plugin:
 
 - ✨By using Package Control, easier and faster.
